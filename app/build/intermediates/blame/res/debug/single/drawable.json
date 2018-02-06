@@ -1,0 +1,522 @@
+[
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/dialog_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_32.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_32.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_63.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_63.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_46.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_46.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_visit.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_visit.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/step_next.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/step_next.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/relativelayout_round.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/relativelayout_round.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_task.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_task.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/sl_btn.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/sl_btn.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_up_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_up_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chat_image_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chat_image_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_62.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_62.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_31.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_31.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/sep_line.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/sep_line.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chat_send_bg_pic_txt.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chat_send_bg_pic_txt.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_btn_false.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_btn_false.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/grid_item_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/grid_item_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_btn_true.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_btn_true.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_59.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_59.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_me.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_me.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_50.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_50.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/edit_text_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/edit_text_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_group_.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_group_.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_me_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_me_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_more.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_more.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_45.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_45.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_61.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_61.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/face_del_icon.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/face_del_icon.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/relativelayout.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/relativelayout.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_64.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_64.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_48.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_48.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chatto_bg_txt.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chatto_bg_txt.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_voice_false.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_voice_false.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_down_pressed.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_down_pressed.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_blank.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_blank.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_35.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_35.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chat_file_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chat_file_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_duty.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_duty.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_chat_.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_chat_.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_66.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_66.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/radio_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/radio_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_addbook.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_addbook.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/sl_shape_btn.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/sl_shape_btn.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_51.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_51.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/sl_vocie_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/sl_vocie_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_daily_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_daily_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_down_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_down_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/app_loading.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/app_loading.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_work.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_work.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_34.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_34.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_photo_stroke.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_photo_stroke.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/ent_login.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/ent_login.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_57.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_57.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_fee.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_fee.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_one_pressed.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_one_pressed.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/my_hint.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/my_hint.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/btn_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/btn_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chatfrom_bg_txt.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chatfrom_bg_txt.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_44.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_44.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/type_select_btn.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/type_select_btn.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_41.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_41.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_cust.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_cust.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_47.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_47.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/app_login.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/app_login.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_message_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_message_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_60.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_60.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_71.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_71.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_work_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_work_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_one_nor.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_one_nor.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_38.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_38.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/ent_login_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/ent_login_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_40.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_40.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_69.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_69.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/tracker_search_et_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/tracker_search_et_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_37.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_37.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/listview_selector_bg_1.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/listview_selector_bg_1.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_54.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_54.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_70.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_70.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/step_back.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/step_back.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_message.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_message.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/ic_show_more_flag_1.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/ic_show_more_flag_1.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/ent_login_cp.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/ent_login_cp.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_voice_true.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_voice_true.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_68.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_68.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/pic_start.9.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/pic_start.9.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_53.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_53.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_42.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_42.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_67.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_67.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chat_share_select.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chat_share_select.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_bg_true.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_bg_true.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_72.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_72.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_56.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_56.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chatsend_bg_pic_txt_normal.9.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chatsend_bg_pic_txt_normal.9.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/msg_state_failed_resend.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/mobile_login_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/mobile_login_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/bt_shanchu.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/bt_shanchu.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/shape_tab_normal.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/shape_tab_normal.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/guide_round.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/guide_round.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_one_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_one_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/title_list_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/title_list_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/iv_face.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/iv_face.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chat_takepic_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chat_takepic_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/tracker_search.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/tracker_search.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_49.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_49.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_43.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_43.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_pic.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_pic.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/edit_text_bg2.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/edit_text_bg2.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_up_pressed.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_up_pressed.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_65.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_65.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/app_disbale.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/app_disbale.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_up_nor.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_up_nor.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/ic_applogo.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/ic_applogo.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_contact.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_contact.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/main_daily.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/main_daily.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chat_send_btn_selector.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/notice_count.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/notice_count.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/select_bucket.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/select_bucket.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/work_manage.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/work_manage.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_58.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_58.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/chat_from_bg_pic_txt.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/chat_from_bg_pic_txt.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_33.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_33.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/setting_down_nor.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/setting_down_nor.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/mobile_login.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/mobile_login.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_39.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_39.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_55.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_55.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/sl_all_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/sl_all_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_36.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_36.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/p_emoji_52.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/p_emoji_52.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable/ent_login_false_cp.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable/ent_login_false_cp.png"
+    }
+]

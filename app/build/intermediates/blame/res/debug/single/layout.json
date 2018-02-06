@@ -1,0 +1,466 @@
+[
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_make_ring_second.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_make_ring_second.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_im.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_im.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_childitem_list.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_childitem_list.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_capture.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_capture.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_select_pics.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_select_pics.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_settle_acct.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_settle_acct.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_selectimg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_selectimg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_send_share.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_send_share.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/ring_photo_img_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/ring_photo_img_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/header_comment_info.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/header_comment_info.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_clip_pic.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_clip_pic.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_setting.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_setting.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_send_text.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_send_text.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_pic_txt_send.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_pic_txt_send.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_forget_password.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_edit_userinfo.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_edit_userinfo.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/list_some_group_member_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/list_some_group_member_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/chat_interface.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/chat_interface.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/dialog_view_edit.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/dialog_view_edit.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/listview_ring_theme_photo_wall_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/listview_ring_theme_photo_wall_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_dynamic.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_dynamic.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_show_big_image.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_show_big_image.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/item_published_grida.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/item_published_grida.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_ring_theme_info.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_ring_theme_info.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/im_search_bar_not_edit.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/im_search_bar_not_edit.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/channel_activity.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/channel_activity.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/grid_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/grid_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_change_pass_word.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_change_pass_word.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/include_viewpager.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/include_viewpager.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/person_verification.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/person_verification.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_message_list_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_message_list_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/dialog_bar_code.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/dialog_bar_code.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_workplatform.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_workplatform.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_context_menu.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_context_menu.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_comment.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_comment.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/dialog_deleagate.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/dialog_deleagate.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/app_fragment.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/app_fragment.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/pop_select_pic.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/pop_select_pic.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_newfriends.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_newfriends.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_header.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/gridview_select_pic_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/gridview_select_pic_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/title_popup.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/title_popup.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/weixin_pay_result.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/weixin_pay_result.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_header2.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/pull_to_refresh_header2.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/pull_to_load_footer.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/pull_to_load_footer.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/search_ring.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/search_ring.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_friendsinfo_new.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_friendsinfo_new.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_register_3.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_register_3.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/listview_item_1.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/listview_item_1.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_booksfriend_main_list.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_booksfriend_main_list.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_me_new.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_me_new.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/common_layout_btn_1.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/common_layout_btn_1.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_ring_setting.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_ring_setting.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/item_reply_comment.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/item_reply_comment.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_system_notification.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_system_notification.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_send_picture.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_send_picture.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/listview_my_groups_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/listview_my_groups_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/front_cover_bg.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/front_cover_bg.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_receive_share.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_receive_share.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/my_dialog.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/my_dialog.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/pull_to_refresh_head.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/pull_to_refresh_head.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_photo.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_photo.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_exit.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_exit.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/channel_gridview_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/channel_gridview_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/custom_face_layout.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/custom_face_layout.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_head_fragment.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_head_fragment.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/softupdate_progress.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/softupdate_progress.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/top_tabs.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/top_tabs.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/listview_all_groups_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/listview_all_groups_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_receive_text.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_receive_text.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_message.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_message.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_show_file.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_show_file.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/listview_comment_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/listview_comment_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/search_common_et.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/search_common_et.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/ring_theme_info_commend_layout.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/ring_theme_info_commend_layout.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_search.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_search.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/recyclerview_ring_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/recyclerview_ring_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_system_message.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_system_message.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/channel_viewpage_gridview.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/channel_viewpage_gridview.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_forward_dialog.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_forward_dialog.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/view_loading_dialog.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/view_loading_dialog.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_login.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_receive_file.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_receive_file.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/common_layout_refresh_listview.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/common_layout_refresh_listview.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/contacts_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/contacts_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_receive_picture.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_receive_picture.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_about_app.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_about_app.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_transition.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_transition.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/img_bucket_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/img_bucket_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_send_file.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_send_file.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_dynamic_comment.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_dynamic_comment.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/ring_leble.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/ring_leble.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_forward.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_forward.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/group_members_list.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/group_members_list.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_comment.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_comment.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/row_pic_txt_rece.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/row_pic_txt_rece.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_share_app.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_share_app.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_mypersonal_center.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_mypersonal_center.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/item_face.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/item_face.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_newfriends_item.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_newfriends_item.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/common_listview.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/common_listview.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_make_ring_first.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_make_ring_first.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/image_detail_pager.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/image_detail_pager.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/console_main.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/console_main.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/item_workplatform.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/item_workplatform.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_app_start.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_app_start.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_web_view.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_web_view.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_comment_info.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_comment_info.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_sacn_result.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_sacn_result.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_add_new_friends.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_add_new_friends.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_image_detail.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_image_detail.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/top_bar.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/top_bar.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_ring_list.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_ring_list.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/activity_register.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/layout/fragment_container_contacts.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/layout/fragment_container_contacts.xml"
+    }
+]

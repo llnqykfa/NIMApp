@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white" >
+
+    <LinearLayout
+        android:id="@+id/clip_pic_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <include layout="@layout/top_bar" />
+    </LinearLayout>
+
+    <com.nzy.nim.view.clip.ClipImageLayout
+        android:id="@+id/clip_pic_cliplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/clip_pic_botom"
+        android:layout_below="@id/clip_pic_topbar" />
+
+    <RelativeLayout
+        android:id="@+id/clip_pic_botom"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF" >
+
+        <Button
+            android:id="@+id/clip_pic_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="10dp"
+            android:background="@color/bg_color"
+            android:padding="5dp"
+            android:text="@string/sure"
+            android:textColor="#18B4ED"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

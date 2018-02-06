@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/slide_in.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/slide_in.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/update_loading_progressbar_anim.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/update_loading_progressbar_anim.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/grow_from_bottomright_to_topleft.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/grow_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/choose_pic_slide_out.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/choose_pic_slide_out.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/grow_from_topleft_to_bottomright.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/grow_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/v5_dialog_layout_anim.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/v5_dialog_layout_anim.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/v5_dialog_exit.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/v5_dialog_exit.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/pophidden_anim.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/pophidden_anim.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/shrink_from_topright_to_bottomleft.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/shrink_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/push_up_out.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/push_up_out.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/popshow_anim.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/popshow_anim.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/slide_out.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/slide_out.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/shrink_from_top.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/shrink_from_top.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/pop_out.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/pop_out.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/grow_from_bottom.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/grow_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/fade_in.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/fade_in.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/push_bottom_in_2.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/push_bottom_in_2.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/push_bottom_in.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/push_bottom_in.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/shrink_from_bottomright_to_topleft.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/shrink_from_bottomright_to_topleft.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/hold.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/hold.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/v5_dialog_item_in.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/v5_dialog_item_in.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/shrink_from_topleft_to_bottomright.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/shrink_from_topleft_to_bottomright.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/pop_in.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/pop_in.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/grow_from_topright_to_bottomleft.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/grow_from_topright_to_bottomleft.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/translate_rail.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/translate_rail.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/shrink_from_bottom.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/shrink_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/grow_from_top.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/grow_from_top.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/choose_pic_slide_in.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/choose_pic_slide_in.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/v5_dialog_enter.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/v5_dialog_enter.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/shrink_from_bottomleft_to_topright.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/shrink_from_bottomleft_to_topright.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/anim/grow_from_bottomleft_to_topright.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/anim/grow_from_bottomleft_to_topright.xml"
+    }
+]

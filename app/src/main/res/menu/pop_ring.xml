@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/publish"
+        android:title="发布" />
+    <item
+        android:id="@+id/ring_back"
+        android:title="返回组圈" />
+</menu>

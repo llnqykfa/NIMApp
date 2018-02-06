@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<litepal>
+
+    <!-- 数据库名称 -->
+
+    <dbname value="nzy_db" >
+    </dbname>
+    <!-- 版本 -->
+
+    <version value="1" >
+    </version>
+    <!-- 表:包名+类名 -->
+
+    <list>
+        <mapping class="com.nzy.nim.vo.PersonSession" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.ChatRecord" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.Contacts" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.GroupMembers" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.HeadTables" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.Interests" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.Invitations" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.MyGroups" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.RingComments" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.SessionMsg" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.bean.Users" >
+        </mapping>
+        <mapping class="com.nzy.nim.db.FaceImage" >
+        </mapping>
+        <mapping class="com.nzy.nim.vo.MeetingMsg" >
+        </mapping>
+        <mapping class="com.nzy.nim.vo.MyInterests" >
+        </mapping>
+        <mapping class="com.nzy.nim.vo.PersonSession" >
+        </mapping>
+        <mapping class="com.nzy.nim.vo.ProjectMeetingMsg" >
+        </mapping>
+        <mapping class="com.nzy.nim.vo.RingList" >
+        </mapping>
+        <mapping class="com.nzy.nim.vo.RingThemesTmp" >
+        </mapping>
+        <mapping class="com.nzy.nim.vo.UserInfo" >
+        </mapping>
+    </list>
+
+</litepal>

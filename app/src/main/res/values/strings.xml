@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">福建足球</string>
+    <string name="title">功能标题</string>
+    <string name="login_type_ent">企业账号</string>
+    <string name="login_type_mobile">认证手机</string>
+    <string name="login_commit">登   录</string>
+    <string name="logout_commit">退   出</string>
+    <string name="login_ent_code">请输入企业账号</string>
+    <string name="login_user_acct">请输入个人账号</string>
+    <string name="login_ent_passwd">请输入密码</string>
+    <string name="login_per_mobile">请输入认证手机号</string>
+
+    <string name="scan_text">将条码放入框内，即可自动扫描</string>
+    <string name="action_scan">扫一扫</string>
+    <string name="server_is_busy">服务器繁忙!</string>
+    <string name="notify_msg">提示信息</string>
+    <string name="loading">正在加载 ....</string>
+    <string name="notify_net_msg">网络连接异常，获取数据失败！！</string>
+    <string name="close">关闭</string>
+    <string name="sure">确定</string>
+    <string name="sure_exit">确认退出</string>
+    <!-- ***************************下拉刷新******************************* -->
+    <string name="pushmsg_center_no_more_msg">已经到底啦</string>
+    <string name="pushmsg_center_pull_up_text">松开加载更多</string>
+    <string name="pushmsg_center_pull_down_text">下拉可以刷新</string>
+    <string name="pushmsg_center_pull_release_text">松开获取更多</string>
+    <string name="pushmsg_center_pull_down_update_time">最后更新时间 : </string>
+    <string name="pushmsg_center_load_more_ongoing_text">正在加载中</string>
+    <string name="xsearch_loading">正在加载中…</string>
+
+    <!-- 下拉刷新和上拉加载更多的文本 -->
+    <string name="pull_to_refresh_header_hint_normal">下拉可以刷新</string>
+    <string name="pull_to_refresh_header_hint_normal2">上拉可以刷新</string>
+    <string name="pull_to_refresh_header_hint_ready">松开后刷新</string>
+    <string name="pull_to_refresh_header_hint_loading">@string/pushmsg_center_load_more_ongoing_text</string>
+    <string name="pull_to_refresh_header_last_time">@string/pushmsg_center_pull_down_update_time</string>
+    <string name="pull_to_refresh_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh_no_more_data">@string/pushmsg_center_no_more_msg</string>
+    <string name="pull_to_refresh_network_error">网络不给力，请检查网络</string>
+
+    <!-- 下拉刷新 聊天界面 -->
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <!-- ################### 个人中心################## -->
+    <string name="nick">昵称</string>
+    <string name="head">头像</string>
+    <string name="sex">性别</string>
+    <string name="sign">个性签名</string>
+    <string name="my_study_code">我的学号</string>
+    <string name="professional_grade">专业年级</string>
+    <string name="pwd_tip">密码长度在6~16之间，只能包含字符、数字和下划线</string>
+    <string name="no_network">网络连接超时。请检查你的设置</string>
+    <!-- ######### 组圈 ################# -->
+    <string name="input_ring_name">请输入圈名</string>
+    <string name="input_ring_content_hint">寻找有共同理想，共同目标，共同兴趣的圈友</string>
+    <string name="ring_introduce">圈介绍:</string>
+    <string name="ring_name">圈主题</string>
+    <string name="creat_time">创建时间:</string>
+    <string name="groups_member">圈成员:"</string>
+    <string name="groups_author">圈主:</string>
+    <string name="groups_recommend">留言</string>
+    <string name="comment">留言板</string>
+    <string name="into_group_chat">进入群聊</string>
+    <string name="invite_friends">邀请好友</string>
+    <string name="share_friends">分享好友</string>
+    <string name="imgview_content_description">这是图片</string>
+    <string name="groups_empty_recommend">还没圈言呢,快去抢个沙发来坐坐吧！！！</string>
+    <string name="apply_join">申请加入</string>
+    <string name="viewpager_indicator">%1$d/%2$d</string>
+    <string name="search">搜索</string>
+    <string name="send_to_share">分享APP</string>
+    <string name="username_is_empty">用户名不能为空!</string>
+    <string name="pwd_is_empty">密码不能为空!</string>
+    <string name="password">密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_pwd">确认密码</string>
+    <string name="perform">完成</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">微信支付结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+</resources>

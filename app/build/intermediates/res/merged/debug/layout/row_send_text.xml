@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <TextView
+        android:id="@+id/row_text_tv_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#bfbfbf"
+        android:padding="2dp"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <com.nzy.nim.view.RoundImageView
+            android:id="@+id/row_text_iv_userhead"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:focusable="false"
+            android:src="@drawable/pic_default_head" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_text_contents"
+
+            android:clickable="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/row_text_iv_userhead"
+            >
+            <com.nzy.nim.view.ClickableTextview
+                android:id="@+id/row_text_tv_chatcontent"
+                style="@style/chat_content_date_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxEms="11"
+                android:background="@drawable/chatto_bg_txt"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:autoLink="phone|web"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_share_contents"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="120dp"
+                    android:id="@+id/book_info_show_bookconver"
+                    android:background="@drawable/default_img_1"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_toRightOf="@+id/book_info_show_bookconver"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/book_info_show_bookname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/book_info_show_author"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="5dp"
+                        android:singleLine="true"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:textColor="@color/dark_gray_1"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/book_info_show_ISBN_code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="3dp"
+                        android:singleLine="true"
+                        android:text=""
+                        android:layout_weight="1"
+                        android:textColor="@color/dark_gray_1"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+
+        <ProgressBar
+            android:id="@+id/row_text_pb_sending"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_text_contents"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/row_text_msg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_text_contents"
+            android:clickable="true"
+            android:src="@drawable/msg_state_failed_resend"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

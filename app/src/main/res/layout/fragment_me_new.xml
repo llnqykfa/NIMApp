@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#E9E9E9"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/top_bar"
+        android:id="@+id/include" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="20dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:background="@drawable/pic_mine_bg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout5">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/fragment_me_nike"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="97dp"
+            android:layout_marginBottom="9.5dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+
+        android:layout_below="@+id/relativeLayout5"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout6">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <RelativeLayout
+                android:id="@+id/rl_personality"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="87dp"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="个性签名"
+                    android:textColor="#979797"
+                    android:id="@+id/tv_signature"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textSize="15sp"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="9.5dp"
+                    />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+            <FrameLayout
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_above="@+id/fragment_me_ll_Curriculum"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/frameLayout2">
+
+                <ImageView
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:src="@drawable/img_mine_head_"
+                    android:layout_gravity="center"/>
+                <com.nzy.nim.view.RoundImageView
+                    android:layout_width="75.5dp"
+                    android:layout_height="75.5dp"
+                    android:id="@+id/fragment_me_head"
+                    android:layout_gravity="center"
+                    android:src="@drawable/pic_default_head"
+                    />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/relativeLayout6"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/sl_mine_bg"
+                android:id="@+id/fragment_me_ll_Curriculum"
+                >
+                <RelativeLayout
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/relativeLayout11">
+
+                    <ImageView
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:id="@+id/imageView2"
+                        android:src="@drawable/img_share_app"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="分享APP"
+                    android:id="@+id/textView12"
+                    android:textColor="#474747"
+                    android:textSize="@dimen/text_16"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/relativeLayout11"
+                    android:layout_toEndOf="@+id/relativeLayout11" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/gray_line2"
+                android:layout_below="@+id/fragment_me_ll_Curriculum"
+                android:id="@+id/textView7"
+                />
+    <!--<TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#bbbbbb"
+        android:id="@+id/textView9"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true" />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/textView7"
+        android:background="@drawable/sl_mine_bg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/rl_to_setting">
+
+        <RelativeLayout
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout18">
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:id="@+id/imageView6"
+                android:src="@drawable/ic_setting"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textColor="#474747"
+            android:textSize="@dimen/text_16"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/relativeLayout18"
+            android:layout_toEndOf="@+id/relativeLayout18" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dp"
+        android:background="#bbbbbb"
+        android:layout_below="@+id/rl_to_setting"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView27" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

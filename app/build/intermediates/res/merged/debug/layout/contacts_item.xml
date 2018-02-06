@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:id="@+id/rel_childitem_header"
+        android:layout_width="match_parent"
+        android:layout_height="33dp"
+        android:background="@color/bg_color"
+        android:visibility="gone"
+        >
+        <TextView
+            android:id="@+id/childitem_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="13sp"
+            />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学校信息"
+            android:id="@+id/checkBox_school"
+            android:layout_marginRight="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:visibility="gone"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/childitem_list_base_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_15" >
+
+        <ImageView
+            android:id="@+id/child_left_edit_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/imgview_content_description"
+            android:src="@drawable/ic_sub"
+            android:visibility="gone" />
+
+        <com.nzy.nim.view.RoundImageView
+            android:layout_width="45dp"
+            android:id="@+id/child_image"
+            android:layout_height="45dp"
+            android:src="@drawable/pic_default_head" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginLeft="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tv_contacts_name"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_marginTop="10dp"
+                android:textColor="#202020"
+                android:textSize="@dimen/text_15"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tv_contacts_school"
+                android:layout_below="@+id/tv_contacts_name"
+                android:layout_alignLeft="@+id/tv_contacts_name"
+                android:layout_alignStart="@+id/tv_contacts_name"
+                android:layout_marginTop="5dp"
+                android:textSize="@dimen/text_15"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/tv_contacts_class"
+                android:layout_below="@+id/tv_contacts_name"
+                android:layout_toRightOf="@+id/tv_contacts_school"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="@dimen/text_15"
+                 />
+        </RelativeLayout>
+    </LinearLayout>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="65dp"-->
+        <!--android:layout_marginLeft="11dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="vertical" >-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/child_name"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#202020"-->
+            <!--android:textSize="17sp" >-->
+        <!--</TextView>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/child_sign"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:layout_marginTop="3dp"-->
+            <!--android:maxEms="11"-->
+            <!--android:singleLine="true"-->
+            <!--android:textColor="#363636" >-->
+        <!--</TextView>-->
+    <!--</LinearLayout>-->
+
+</LinearLayout>

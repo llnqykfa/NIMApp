@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/title_bg"
+            >
+            <RelativeLayout
+                android:id="@+id/top_back_bg"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                >
+                <ImageView
+                    android:id="@+id/top_bar_back"
+                    android:layout_centerInParent="true"
+                    android:layout_width="19dp"
+                    android:layout_height="17dp"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/back_false"
+                    />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="150dp"
+                android:layout_height="0.5dp"
+                android:background="@color/white"
+                android:layout_above="@+id/linearLayout1"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/view2" />
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="150dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" >
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="46.67dp"
+                    android:background="@color/white" />
+
+                <Button
+                    android:id="@+id/tab_dynamic"
+                    style="@style/tab2_rb_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="动态"
+                    android:textSize="15sp" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="46.67dp"
+                    android:background="@color/white" />
+
+
+                <Button
+                    android:id="@+id/tab_comment"
+                    style="@style/tab2_rb_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="留言"
+                    android:textSize="15sp" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="46.67dp"
+                    android:background="@color/white" />
+            </LinearLayout>
+            <View
+                android:layout_width="150dp"
+                android:layout_height="0.5dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"
+                android:layout_below="@+id/linearLayout1"
+                />
+            <ImageView
+                android:id="@+id/top_bar_next_iv"
+                android:layout_width="50dp"
+                android:layout_height="48dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:scaleType="center"
+                android:src="@drawable/icon_show_more"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/dynamic_farme"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </FrameLayout>
+</LinearLayout>

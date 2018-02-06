@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#5E5E5E</color>
+    <color name="backGround">#F5F5F5</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="white">#ffffff</color>
+    <color name="common_item_presse">#EFEFEF</color>
+    <color name="color_mian">#fd71a3</color>
+    <color name="keyword_false">#525252</color>
+    <color name="tv_color_apply">#383838</color>
+    <color name="green">#00BB00</color>
+    <color name="tabs_false">#8c8988</color>
+    <color name="tabs_true">#2885d7</color>
+    <color name="category_true">#ff0000</color>
+    <color name="category_false">#333333</color>
+    <!-- 灰色 -->
+    <color name="dark_gray_1">#666666</color>
+    <color name="gray">#9D9D9D</color>
+    <color name="gray_1">#BEBEBE</color>
+    <color name="gray_2">#d0d0d0</color>
+    <color name="gray_3">#E0E0E0</color>
+    <color name="gray_4">#EFEFEF</color>
+    <color name="index_bottom_textcolor">#ff666666</color>
+    <color name="line">#ffd3dde6</color>
+
+    <color name="system_split_line">#ffc3c3c7</color>
+    <!-- app主题背景 -->
+    <color name="bg_color">#F5F5F5</color>
+    <color name="bg_topbar">#0077d9</color>
+    <color name="text_color">#18B4ED</color>
+    <color name="top_btn_press">#065FB5</color>
+    <color name="btn_b">#9d9d9d</color>
+
+    <color name="dynamic_true">#267EE9</color><!-- 动态已选择 -->
+
+    <color name="sl_mine_true">#E0E0E0</color>
+
+    <!-- 红色 -->
+    <color name="red">#FF0000</color>
+
+    <color name="navpage">#FFE1E8EB</color>
+
+    <color name="gray_line1">#EEEEEE</color>
+    <color name="gray_line2">#DCDCDC</color>
+    <color name="gray_text3">#000000</color>
+</resources>

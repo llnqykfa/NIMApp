@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/menu/pop_ring.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/menu/pop_ring.xml"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/menu/popup_menu.xml",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/menu/popup_menu.xml"
+    }
+]

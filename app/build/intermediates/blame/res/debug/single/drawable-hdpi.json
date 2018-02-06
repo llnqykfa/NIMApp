@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/default_ptr_rotate.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/default_ptr_rotate.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/fun.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/fun.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/search.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/search.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/pulltorefresh_up_arrow.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/pulltorefresh_up_arrow.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_tack_photo.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_tack_photo.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/pulltorefresh_down_arrow.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/pulltorefresh_down_arrow.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chat_takepic_normal.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chat_takepic_normal.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_add.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_add.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_my_fragment.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/bg_my_fragment.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/qy_sacncode.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/qy_sacncode.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_true.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/btn_true.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/dialog_deleagate_bg.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/dialog_deleagate_bg.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/img_ring_hot.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/img_ring_hot.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_search.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/icon_search.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chat_takepic_pressed.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chat_takepic_pressed.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_jiaolianyuan.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_jiaolianyuan.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/skin_tips_dot_small.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/skin_tips_dot_small.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_update_new.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_update_new.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chatting_biaoqing_btn_enable.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chatting_biaoqing_btn_enable.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/apply_bg.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/apply_bg.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_cab_background_top_holo_light.9.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/abc_cab_background_top_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/qy_addfriend.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/qy_addfriend.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_no_recommend.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_no_recommend.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_geren.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_geren.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/settle_no.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/settle_no.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bg_no_recommend.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_bg_no_recommend.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_go.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_go.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_divider_1.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_divider_1.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/dialog_dismiss.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/dialog_dismiss.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/bg_ring_theme_apply.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/bg_ring_theme_apply.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/msg_state_fail_resend.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/msg_state_fail_resend.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/xsearch_msg_pull_arrow_down.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/xsearch_msg_pull_arrow_down.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_update_app.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_update_app.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/default_image.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/default_image.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/search_bar_icon_normal.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/search_bar_icon_normal.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_book_review.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/icon_book_review.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/title_bg.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/title_bg.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/vpi__tab_selected_pressed_holo.9.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/vpi__tab_selected_pressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_selected.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_selected.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_add_2.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_add_2.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_has_recommend.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_has_recommend.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_review.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_review.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_zuquan.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_zuquan.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_saishibeian.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_saishibeian.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/et_line_.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/et_line_.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/abc_ab_share_pack_holo_dark.9.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chat_item_file.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chat_item_file.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_switch_close.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_switch_close.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_yundongyuan.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_yundongyuan.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_pic_dir.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_pic_dir.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/xsearch_loading.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/xsearch_loading.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_sub.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_sub.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_select_yes.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_select_yes.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_huiyuanxuehui.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_huiyuanxuehui.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/actionbar_search_icon.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/actionbar_search_icon.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_show_more.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/icon_show_more.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_delete_2.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/icon_delete_2.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/face_del_ico_pressed.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/face_del_ico_pressed.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/news_beyond.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/news_beyond.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/msg_state_fail_resend_pressed.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/msg_state_fail_resend_pressed.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/news_meeting.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/news_meeting.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/pic_default_head.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/pic_default_head.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/btn_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/btn_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/qy_contact.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/qy_contact.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_julebu.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_julebu.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_right.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_right.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/news_system.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/news_system.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_select_no.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_select_no.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_no_fun_tip.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_no_fun_tip.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_shanchu_unfocused.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/icon_shanchu_unfocused.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_addpic_focused.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/icon_addpic_focused.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_direction_1.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_direction_1.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_point_like_press.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_point_like_press.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/img_setting_shadow.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/img_setting_shadow.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/qy_add.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/qy_add.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/qy_group.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/qy_group.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_caipanyuan.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_caipanyuan.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_switch_open.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_switch_open.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_zhanshi.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_zhanshi.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/img_ring_top.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/img_ring_top.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_master_flag.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_master_flag.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_main_more_normal.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_main_more_normal.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_bg_has_recommend.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_bg_has_recommend.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_delete_1.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_delete_1.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chat_image_normal.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chat_image_normal.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/back_false.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/back_false.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chatting_biaoqing_btn_normal.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chat_file_pressed.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chat_file_pressed.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/face_del_ico_dafeult.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/face_del_ico_dafeult.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/slide_bg.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/slide_bg.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_hot_books_recommended.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_hot_books_recommended.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/app_shangjia.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/app_shangjia.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chat_file_normal.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chat_file_normal.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/icon_shanchu_focused.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/icon_shanchu_focused.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/chat_image_pressed.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/chat_image_pressed.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/default_img_1.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/default_img_1.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/img_mine_head_.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/img_mine_head_.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_item_unselected.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_item_unselected.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_ring_flag.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/ic_ring_flag.png"
+    },
+    {
+        "merged": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/res/merged/debug/drawable-hdpi/settle_done.png",
+        "source": "/Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/res/drawable-hdpi/settle_done.png"
+    }
+]

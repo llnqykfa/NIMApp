@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+    android:layout_marginRight="10dp" >
+
+    <LinearLayout
+        android:id="@+id/ring_theme_info_comment_container"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <!-- 头像 -->
+
+        <ImageView
+            android:id="@+id/ring_theme_info_comment_container_first_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:scaleType="centerCrop"
+            android:visibility="gone"
+            android:src="@drawable/default_image" />
+        <!-- 内容 -->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical" >
+
+                <!-- 留言的人的昵称和时间 -->
+
+                <RelativeLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/ring_theme_info_comment_container_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="#202020" />
+
+                    <TextView
+                        android:id="@+id/ring_theme_info_comment_container_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textColor="#202020"
+                        android:visibility="gone" />
+                </RelativeLayout>
+                <!-- 留言内容 -->
+
+                <TextView
+                    android:id="@+id/ring_theme_info_comment_container_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:textColor="#202020"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/imgview_content_description"
+                android:visibility="gone"
+                android:src="@drawable/ic_direction_1" />
+        </RelativeLayout>
+    </LinearLayout>
+    <!-- 无留言时的提示语 -->
+
+    <RelativeLayout
+        android:id="@+id/ring_theme_info_commend_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:maxEms="10"
+            android:textSize="14sp"
+            android:textColor="#202020"
+            android:text="@string/groups_empty_recommend" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@string/imgview_content_description"
+            android:visibility="gone"
+            android:src="@drawable/ic_direction_1" />
+    </RelativeLayout>
+
+</RelativeLayout>

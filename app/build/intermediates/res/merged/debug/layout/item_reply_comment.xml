@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layout_show_more"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="6dp">
+
+            <com.nzy.nim.view.RoundImageView
+                android:id="@+id/img_comment_pic"
+                android:layout_width="29dp"
+                android:layout_height="29dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/pic_default_head" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/img_comment_pic"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#1b71bb"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/tv_comment_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="6dp"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="#1b71bb"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/rl_reply"
+            android:layout_marginLeft="12dp"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:textSize="14sp"
+                android:id="@+id/text_reply"
+                android:text="回复"/>
+            <TextView
+                android:id="@+id/tv_replyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/text_reply"
+                android:singleLine="true"
+                android:layout_marginLeft="6dp"
+                android:text=""
+                android:textColor="#1b71bb"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_toRightOf="@+id/rl_reply"
+            android:ellipsize="end"
+            android:maxLines="15"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:text=""
+            android:textColor="#171717"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>

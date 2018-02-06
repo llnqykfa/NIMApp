@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/sl_all_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="接收新消息提醒"
+            android:textColor="#1a1a1a"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/setting_iv_receiverMsg"
+            android:layout_width="47dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:clickable="true"
+            android:contentDescription="@string/imgview_content_description"
+            android:src="@drawable/ic_switch_open" />
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#d1d1d1"/>
+
+    <RelativeLayout
+        android:id="@+id/setting_rl_sound_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/sl_all_bg" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="声音"
+            android:textColor="#1a1a1a"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/setting_iv_sound"
+            android:layout_width="47dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_switch_open" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d1d1d1"/>
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/setting_rl_vibrator_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text="震动"
+            android:textColor="#1a1a1a"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/setting_iv_vibrator"
+            android:layout_width="47dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_switch_open" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentBottom="true"
+            android:background="#d1d1d1"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/setting_btn_personal_change_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/sl_all_bg"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="10dp"
+        android:textColor="#1a1a1a"
+        android:text="修改密码"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#d1d1d1"/>
+
+    <RelativeLayout
+        android:id="@+id/rel_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/setting_btn_personal_about_qy"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:background="@drawable/sl_all_bg"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:textColor="#1a1a1a"
+            android:text="关于福建足球"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="5dp"
+            android:id="@+id/up_img"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/tv_info_hint"
+            android:visibility="gone"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="有新版本"
+            android:id="@+id/up_tv"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/up_img"
+            android:layout_toStartOf="@+id/up_img"
+            android:layout_marginRight="3dp"
+            android:textSize="12sp"
+            android:textColor="@color/red"
+            android:visibility="gone"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#d1d1d1"/>
+
+    <Button
+        android:id="@+id/setting_btn_personal_exit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/app_login"
+        android:text="@string/logout_commit"
+        android:textColor="#FFFDFA"
+        android:textSize="20sp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="录音"
+        android:visibility="gone"
+        android:id="@+id/button3" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放"
+        android:onClick="play"
+        android:visibility="gone"
+        android:id="@+id/button4" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:visibility="gone"
+        android:onClick="send"
+        android:id="@+id/button5" />
+
+</LinearLayout>

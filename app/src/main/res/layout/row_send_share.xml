@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="3dp">
+
+    <TextView
+        android:id="@+id/row_text_tv_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#bfbfbf"
+        android:padding="2dp"
+        android:textColor="#ffffff"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <com.nzy.nim.view.RoundImageView
+            android:id="@+id/row_text_iv_userhead"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:focusable="false"
+            android:src="@drawable/pic_default_head" />
+
+        <RelativeLayout
+            android:id="@+id/rl_share_container"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:layout_toLeftOf="@id/row_text_iv_userhead"
+            android:background="@drawable/chat_share_select"
+            >
+
+            <ImageView
+                android:id="@+id/shareImg"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/default_img_1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/shareImg"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/sharedTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:maxLines="2"
+                    android:ellipsize="end"
+                    android:text=""
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/shareContent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:maxLines="4"
+                    android:ellipsize="end"
+                    android:minHeight="40dp"
+                    android:text=""
+                    android:textColor="@color/gray"
+                    android:textSize="14sp" />
+
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/shareTip"
+            style="@style/chat_text_date_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rl_share_container"
+            android:layout_below="@+id/rl_share_container"
+            android:layout_marginTop="3dp"
+            />
+        <!--<ProgressBar-->
+        <!--android:id="@+id/row_text_pb_sending"-->
+        <!--android:layout_width="25dp"-->
+        <!--android:layout_height="25dp"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toLeftOf="@id/rl_text_contents"-->
+        <!--android:visibility="visible" />-->
+        <TextView
+            android:id="@+id/row_text_tv_username"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/row_text_iv_userhead"
+            android:maxEms="9"
+            android:maxLength="9"
+            android:singleLine="true"
+            android:visibility="visible" />
+        <!--<ImageView-->
+        <!--android:id="@+id/row_text_msg_status"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:layout_toLeftOf="@id/rl_text_contents"-->
+        <!--android:clickable="true"-->
+        <!--android:src="@drawable/msg_state_failed_resend"-->
+        <!--android:visibility="visible" />-->
+        <ProgressBar
+            android:id="@+id/row_text_pb_sending"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_share_container"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/row_text_msg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/rl_share_container"
+            android:clickable="true"
+            android:src="@drawable/msg_state_failed_resend"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,525 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:2:1-260:12
+	package
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:3:5-26
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:5:5-33
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:4:5-30
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:12:22-72
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:16:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:18:5-76
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:18:22-73
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:21:22-65
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:27:22-75
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:29:5-66
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:29:22-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:30:5-65
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:30:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:32:5-60
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:32:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:33:5-70
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:33:19-67
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:35:5-84
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:35:22-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:36:5-80
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:36:22-77
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:37:5-72
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:37:22-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:38:5-81
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:38:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:39:5-76
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:39:22-73
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:40:5-73
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:40:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:41:5-68
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:41:22-65
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:42:5-71
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:42:22-68
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:43:5-79
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:43:22-76
+uses-permission#android.permission.RESTART_PACKAGES
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:44:5-75
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:44:22-72
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:45:5-88
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:45:22-85
+uses-permission#com.android.browser.permission.WRITE_HISTORY_BOOKMARKS
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:46:5-94
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:46:22-91
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:47:5-84
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:47:22-81
+application
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:49:5-258:19
+MERGED from [com.android.support:recyclerview-v7:21.0.3] /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml:17:5-19:19
+MERGED from [com.android.support:support-v4:21.0.3] /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:53:9-41
+	android:supportsRtl
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:54:9-35
+	android:allowBackup
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:51:9-35
+	android:icon
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:52:9-44
+	android:theme
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:55:9-40
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:50:9-41
+activity#com.nzy.nim.activity.main.AppStartActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:56:9-66:20
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:59:13-49
+	android:label
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:58:13-45
+	android:theme
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:60:13-47
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:57:13-59
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:61:13-65:29
+action#android.intent.action.MAIN
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:62:17-69
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:62:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:64:17-77
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:64:27-74
+activity#com.nzy.nim.activity.login.LoginActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:67:9-71:59
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:70:13-49
+	android:launchMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:69:13-43
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:71:13-56
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:68:13-57
+activity#com.nzy.nim.activity.main.MainActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:72:9-76:55
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:75:13-49
+	android:launchMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:74:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:76:13-52
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:73:13-55
+activity#com.nzy.nim.activity.login.TransitionActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:78:13-62
+activity#com.nzy.nim.activity.main.AddNewFriendsActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:80:9-83:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:83:13-49
+	android:launchMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:82:13-43
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:81:13-64
+activity#com.nzy.nim.activity.main.PersonVerificationInfo
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:84:9-86:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:86:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:85:13-65
+activity#com.nzy.nim.activity.main.FriendsInfoActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:87:9-90:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:90:13-49
+	android:theme
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:89:13-58
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:88:13-62
+activity#com.nzy.nim.activity.base.ShowBigImageActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:91:9-93:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:93:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:92:13-63
+activity#com.nzy.nim.activity.main.EditUserInfoActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:94:9-96:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:96:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:95:13-63
+activity#com.nzy.nim.activity.main.MyPersonalInfoActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:97:9-100:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:100:13-49
+	android:configChanges
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:99:13-74
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:98:13-65
+activity#com.nzy.nim.activity.main.SettleAcctActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:101:9-104:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:104:13-49
+	android:configChanges
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:103:13-74
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:102:13-61
+activity#com.nzy.nim.activity.base.ClipPicActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:105:9-107:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:107:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:106:13-58
+activity#com.nzy.nim.activity.main.SacnResultActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:108:9-110:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:110:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:109:13-61
+activity#com.nzy.nim.activity.main.QYWebviewAvtivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:111:9-113:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:113:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:112:13-60
+activity#com.nzy.nim.activity.main.PayWebviewActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:114:9-116:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:116:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:115:13-61
+activity#com.nzy.nim.activity.main.SystemMessageActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:117:9-119:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:119:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:118:13-64
+activity#com.nzy.nim.activity.main.SystemNotificationActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:120:9-122:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:122:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:121:13-69
+activity#com.nzy.nim.activity.main.RingSettingActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:123:9-125:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:125:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:124:13-62
+activity#com.nzy.nim.activity.base.ImagePagerActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:126:9-128:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:128:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:127:13-61
+activity#com.nzy.nim.activity.main.MembersListActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:129:9-131:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:131:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:130:13-62
+activity#com.nzy.nim.activity.main.DynamicCommentActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:132:9-134:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:134:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:133:13-65
+activity#com.nzy.nim.activity.main.CommentInfoActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:135:9-137:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:137:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:136:13-62
+activity#com.nzy.nim.activity.main.BookCommentInputActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:138:9-141:67
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:140:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:141:13-64
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:139:13-67
+activity#com.nzy.nim.activity.main.ForwardMessageActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:142:9-145:57
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:144:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:145:13-54
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:143:13-65
+activity#com.nzy.nim.activity.base.AlertDialogActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:146:9-149:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:148:13-49
+	android:theme
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:149:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:147:13-62
+activity#com.nzy.nim.activity.main.PublishedActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:150:9-152:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:152:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:151:13-60
+activity#com.nzy.nim.activity.main.PhotoActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:153:9-155:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:155:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:154:13-56
+activity#com.nzy.nim.activity.main.ImageGridActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:156:9-159:57
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:158:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:159:13-54
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:157:13-60
+activity#com.nzy.nim.activity.main.ContextMenu
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:160:9-163:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:162:13-49
+	android:theme
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:161:13-54
+activity#com.nzy.nim.activity.main.ShowNormalFileActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:164:9-166:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:166:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:165:13-65
+activity#com.nzy.nim.activity.main.ChatActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:167:9-171:57
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:170:13-49
+	android:launchMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:169:13-44
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:171:13-54
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:168:13-55
+activity#com.nzy.nim.activity.main.MakeRingFirstActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:172:9-175:70
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:174:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:175:13-67
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:173:13-64
+activity#com.nzy.nim.activity.main.MakeRingSecondActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:176:9-179:70
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:178:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:179:13-67
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:177:13-65
+activity#com.nzy.nim.activity.main.InterestationsCenterActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:180:9-182:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:182:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:181:13-71
+activity#com.nzy.nim.activity.main.CommonInterestActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:183:9-185:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:185:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:184:13-65
+activity#com.nzy.nim.activity.main.SettingActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:186:9-188:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:188:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:187:13-58
+activity#com.nzy.nim.activity.main.ExitActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:189:9-192:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:191:13-49
+	android:theme
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:192:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:190:13-55
+activity#com.nzy.nim.activity.main.ShareAPPActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:193:9-195:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:195:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:194:13-59
+activity#com.nzy.nim.activity.main.RingTeamInfoActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:196:9-199:67
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:198:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:199:13-64
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:197:13-63
+activity#com.nzy.nim.activity.main.RingListActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:200:9-202:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:202:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:201:13-59
+activity#com.nzy.nim.activity.main.SearchActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:203:9-205:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:205:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:204:13-57
+activity#com.nzy.nim.activity.main.RegisterActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:206:9-208:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:208:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:207:13-59
+activity#com.nzy.nim.activity.main.ForgotPwdActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:209:9-211:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:211:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:210:13-60
+activity#com.nzy.nim.activity.main.RegisterActivity3
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:212:9-214:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:214:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:213:13-60
+activity#com.nzy.nim.zxing.MipcaActivityCapture
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:215:9-219:63
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:218:13-49
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:219:13-60
+	android:configChanges
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:217:13-63
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:216:13-55
+activity#com.nzy.nim.activity.main.UpdatePwdActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:220:9-222:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:222:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:221:13-60
+activity#com.nzy.nim.activity.main.AboutAppActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:223:9-225:52
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:225:13-49
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:224:13-59
+activity#com.alipay.sdk.app.H5PayActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:229:9-235:20
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:233:13-47
+	android:exported
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:232:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:234:13-67
+	android:configChanges
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:231:13-85
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:230:13-60
+activity#com.alipay.sdk.app.H5AuthActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:236:9-242:20
+	android:screenOrientation
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:240:13-47
+	android:exported
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:239:13-37
+	android:windowSoftInputMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:241:13-67
+	android:configChanges
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:238:13-74
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:237:13-61
+activity#com.nzy.nim.wxapi.WXPayEntryActivity
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:245:9-249:61
+	android:launchMode
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:248:13-43
+	android:exported
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:247:13-36
+	android:theme
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:249:13-59
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:246:13-53
+receiver#com.nzy.nim.wxapi.WeixinRegister
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:251:9-256:20
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:252:13-60
+intent-filter#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:253:13-255:29
+action#com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP
+ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:254:17-100
+	android:name
+		ADDED from /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/src/main/AndroidManifest.xml:254:25-97
+activity#android.support.v7.widget.TestActivity
+ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml:18:9-115
+	android:label
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml:18:19-59
+	android:name
+		ADDED from [com.android.support:recyclerview-v7:21.0.3] /Users/pm89/Library/Android/AndroidStudioProjects/NIMApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.3/AndroidManifest.xml:18:60-113

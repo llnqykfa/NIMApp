@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/top_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/settle_reg_name_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/listview_selector_bg_1"
+            android:clickable="true">
+
+            <TextView
+                android:id="@+id/settle_reg_name_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="会员："
+                android:textColor="#666666"
+                android:textSize="@dimen/small_middle_text_size" />
+
+            <TextView
+                android:id="@+id/settle_reg_name_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/settle_reg_name_lab"
+                android:gravity="left"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="#666666"
+                android:textSize="@dimen/small_middle_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/settle_reg_catalog_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/listview_selector_bg_1">
+
+            <TextView
+                android:id="@+id/settle_reg_catalog_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="类型："
+                android:textColor="#666666"
+                android:textSize="@dimen/small_middle_text_size" />
+
+            <TextView
+                android:id="@+id/settle_reg_catalog_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/settle_reg_catalog_lab"
+                android:gravity="left"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="#666666"
+                android:textSize="@dimen/small_middle_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/settle_reg_fee_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/listview_selector_bg_1">
+
+            <TextView
+                android:id="@+id/settle_reg_fee_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="费用："
+                android:textColor="#666666"
+                android:textSize="@dimen/small_middle_text_size" />
+
+            <TextView
+                android:id="@+id/settle_reg_fee_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_toRightOf="@+id/settle_reg_fee_lab"
+                android:gravity="left"
+                android:maxLength="10"
+                android:singleLine="true"
+                android:textColor="#666666"
+                android:textSize="@dimen/small_middle_text_size" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/settle_pay_type_layout"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/listview_selector_bg_1">
+
+            <TextView
+                android:id="@+id/settle_pay_type_lab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:gravity="center"
+                android:text="方式："
+                android:textColor="#666666"
+                android:textSize="@dimen/small_middle_text_size" />
+
+            <RadioGroup
+                android:id="@+id/settle_reg_pay_choose"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21dp"
+                android:layout_toRightOf="@+id/settle_pay_type_lab"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="21dp"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="支付宝"
+                    android:id="@+id/pay_alipay_radio"
+                    android:background="@null"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/radio_selector"
+                    android:drawablePadding="5dp"
+                    android:checked="true"
+                    />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="微信"
+                    android:id="@+id/pay_weixin_radio"
+                    android:background="@null"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/radio_selector"
+                    android:drawablePadding="5dp"
+                    android:layout_marginLeft="20px"
+                    />
+            </RadioGroup>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/settle_pay_btn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/app_login"
+            android:text="立即付款"
+            android:textColor="#FFFDFA"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

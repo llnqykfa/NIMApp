@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <!-- 时间 -->
+
+    <TextView
+        android:id="@+id/row_picture_timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <!-- 头像 -->
+
+        <LinearLayout
+            android:id="@+id/row_picture_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <com.nzy.nim.view.RoundImageView
+                android:id="@+id/row_picture_iv_userhead"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:clickable="true"
+                android:src="@drawable/pic_default_head" />
+
+            <TextView
+                android:id="@+id/row_picture_tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#818181"
+                android:textSize="15sp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <!-- 发送图片 -->
+
+        <RelativeLayout
+            android:id="@+id/row_picture_rl_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/row_picture_title" >
+
+            <com.nzy.nim.view.MaskImage
+                android:id="@+id/row_picture_iv_sendPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/default_img_1" />
+        </RelativeLayout>
+        <!-- 进度条 -->
+
+        <LinearLayout
+            android:id="@+id/row_picture_ll_loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@id/row_picture_rl_picture"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ProgressBar
+                android:id="@+id/row_picture_progressBar"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/row_picture_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0%"
+                android:textColor="@android:color/black"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/row_picture_msg_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/row_picture_rl_picture"
+            android:clickable="true"
+            android:src="@drawable/msg_state_failed_resend"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

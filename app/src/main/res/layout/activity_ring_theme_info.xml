@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E8E8E8">
+
+    <!-- 标题栏 -->
+
+    <LinearLayout
+        android:id="@+id/ring_theme_info_topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/top_bar" />
+    </LinearLayout>
+    <!-- 底部按钮 -->
+
+    <!-- 主窗口 -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ring_theme_info_topbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- 照片墙 -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="110dp"
+                    android:background="@drawable/img_ringbg"
+                    android:orientation="vertical"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="15dp">
+
+                    <com.nzy.nim.view.NoScrollGridView
+                        android:id="@+id/ring_theme_info_photo_wall"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:listSelector="#00000000"
+                        android:numColumns="4"></com.nzy.nim.view.NoScrollGridView>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/layout_praise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageView
+                        android:id="@+id/img_praise"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/no_attention" />
+
+                    <TextView
+                        android:id="@+id/tv_praiseCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@+id/img_praise"
+                        android:text="0"
+                        android:textColor="#ffffff"
+                        android:textSize="15dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <!-- 创建时间 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#7d7d7d" />
+
+            <!-- 留言 -->
+
+            <LinearLayout
+                android:id="@+id/ring_theme_info_dynamic_container"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/listview_selector_bg_1"
+                android:orientation="vertical"
+                android:paddingLeft="15dp">
+
+                <!-- 留言提示语 -->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/img_ringdy" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:text="最新动态"
+                            android:textColor="#787777"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                </LinearLayout>
+                <!-- 留言的内容 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <!--<include-->
+                        <!--android:id="@+id/ring_theme_info_dynamic_layout"-->
+                        <!--layout="@layout/ring_theme_info_dynamic_layout"-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_centerVertical="true"-->
+                        <!--android:layout_marginRight="40dp" />-->
+                    <LinearLayout
+                        android:id="@+id/ring_re_img_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="40dp"
+                        android:animateLayoutChanges="true"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        />
+
+                    <TextView
+                        android:id="@+id/ring_theme_info_dynamic_num"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="4dp"
+                        android:text=""
+                        android:textColor="#787777"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:src="@drawable/ic_right" />
+                </RelativeLayout>
+                />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dp"
+                android:background="@color/bg_color" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/white"
+                android:paddingLeft="15dp">
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="点赞达标可申请出书，继续努力！" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="15dp">
+
+                <!-- 创建时间的提示语 -->
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/creat_time"
+                        android:textColor="#787777"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 创建时间的内容 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:id="@+id/ring_theme_info_create_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:textColor="#202020"
+                        android:textSize="13sp" />
+
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 下划线 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dp"
+                android:background="@color/bg_color" />
+            <!-- 圈主 -->
+
+            <LinearLayout
+                android:id="@+id/ring_theme_info_master_container"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/listview_selector_bg_1"
+                android:onClick="onClick"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:visibility="visible">
+
+                <!-- 圈主提示语 -->
+
+                <LinearLayout
+                    android:id="@+id/ring_theme_info_author_container"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ring_theme_info_author_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/groups_author"
+                        android:textColor="#787777"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 圈主头像 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true">
+
+                        <com.nzy.nim.view.RoundImageView
+                            android:id="@+id/ring_theme_info_author_head"
+                            android:layout_width="42dp"
+                            android:layout_height="42dp"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/pic_default_head" />
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/imgview_content_description"
+                            android:src="@drawable/ic_direction_1"
+                            android:visibility="gone" />
+
+                        <ImageView
+                            android:id="@+id/imageView21"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:src="@drawable/ic_right" />
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dp"
+                android:background="@color/bg_color" />
+            <!-- 圈成员 -->
+
+            <LinearLayout
+                android:id="@+id/ring_theme_info_members_container"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/listview_selector_bg_1"
+                android:onClick="onClick"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp">
+
+                <!-- 圈成员提示语 -->
+
+                <LinearLayout
+                    android:id="@+id/ring_theme_info_member_title"
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/groups_member"
+                            android:textColor="#787777"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 圈成员头像 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical">
+
+                    <!-- 圈成员列表 -->
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true">
+
+                        <com.nzy.nim.view.NoScrollGridView
+                            android:id="@+id/ring_theme_info_members"
+                            android:layout_width="210dp"
+                            android:layout_height="43dp"
+                            android:layout_centerVertical="true"
+                            android:listSelector="#00000000"
+                            android:numColumns="4"></com.nzy.nim.view.NoScrollGridView>
+
+                        <TextView
+                            android:id="@+id/ring_theme_info_member_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginBottom="4dp"
+                            android:text=""
+                            android:textColor="#787777"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dp"
+                android:background="@color/bg_color" />
+            <!-- 圈介绍 -->
+
+            <LinearLayout
+                android:id="@+id/linear_content"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/white"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp">
+
+                <RelativeLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/listview_selector_bg_1"
+                        android:text="@string/ring_introduce"
+                        android:textColor="#787777"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp">
+
+                    <TextView
+                        android:id="@+id/ring_theme_info_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="2dp"
+                        android:layout_toLeftOf="@+id/tv_ringinf_moren"
+                        android:layout_toStartOf="@+id/tv_ringinf_moren"
+                        android:maxLines="2"
+                        android:textColor="#202020"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/tv_ringinf_moren"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentRight="true"
+                        android:text="更多"
+                        android:textSize="12sp"
+                        android:visibility="gone" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dp"
+                android:background="@color/bg_color" />
+
+            <LinearLayout
+                android:id="@+id/ring_theme_info_leave_comments_container"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/listview_selector_bg_1"
+                android:onClick="onClick"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:visibility="gone">
+
+                <!-- 留言提示语 -->
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="动态"
+                            android:textColor="#787777"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="留言"
+                            android:textColor="#787777"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/ring_theme_info_comment_num"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            android:textColor="@color/gray_3"
+                            android:textSize="25sp"
+                            android:visibility="gone" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!-- 留言的内容 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/ring_theme_info_commend_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1.0dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/bg_color" />
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:minHeight="40dp"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp">
+
+                <!-- 创建时间的提示语 -->
+
+                <LinearLayout
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:gravity="left|center_vertical"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="标签:"
+                        android:textColor="#787777"
+                        android:textSize="16sp" />
+                </LinearLayout>
+                <!-- 创建时间的内容 -->
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp">
+
+                    <com.nzy.nim.view.FlowLayout
+                        android:id="@+id/ring_theme_tag"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"></com.nzy.nim.view.FlowLayout>
+                    <!--<TextView-->
+                    <!--android:id="@+id/ring_theme_info_tag"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_alignParentLeft="true"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:textSize="13sp"-->
+                    <!--android:textColor="#787777" />-->
+                </RelativeLayout>
+            </LinearLayout>
+            <!-- 下划线 -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.0dp"
+                android:background="@color/bg_color" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/img_details_" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="45dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ring_theme_info_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#e8e8e8"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="@dimen/margin_15"
+        android:paddingRight="@dimen/margin_15"
+        android:paddingTop="10dp">
+
+        <Button
+            android:id="@+id/ring_theme_info_btn_function_1"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/sl_btn"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/ring_theme_info_btn_function_2"
+            android:layout_width="0dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_weight="1"
+            android:background="@drawable/sl_btn"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:visibility="visible" />
+    </LinearLayout>
+
+</RelativeLayout>

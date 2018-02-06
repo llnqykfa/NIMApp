@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 聊天界面 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- title -->
+
+    <LinearLayout
+        android:id="@+id/chat_interface_rl_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" >
+
+        <include layout="@layout/top_bar" />
+    </LinearLayout>
+
+    <!-- 刷新 -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/chat_interface_ll_bottom"
+        android:layout_below="@+id/chat_interface_rl_top_bar" >
+
+        <com.nzy.nim.pulltorefresh.PullToRefreshListView
+            android:id="@+id/chat_interface_lv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@null"
+            android:dividerHeight="3dp"
+            android:listSelector="#00000000"
+            android:background="#eeeeee"
+            android:scrollbarStyle="outsideOverlay" />
+    </RelativeLayout>
+
+    <!-- 底部消息输入框 -->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/chat_interface_ll_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_alignParentBottom="true" >
+
+        <include
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            layout="@layout/custom_face_layout" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <!-- 复用布局消息修改 -->
+
+    <include layout="@layout/top_bar" />
+
+    <TextView
+        android:id="@+id/fragment_msg_notify_no_network"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#faa755"
+        android:drawableRight="@drawable/ic_go"
+        android:gravity="center"
+        android:paddingRight="5dp"
+        android:text="@string/no_network"
+        android:textColor="#fffffb"
+        android:textSize="12sp"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.nzy.nim.pulltorefresh.PullToRefreshListView
+            android:id="@+id/fragment_message_sdListView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/ic_divider_1" >
+        </com.nzy.nim.pulltorefresh.PullToRefreshListView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@drawable/ic_divider_1" />
+
+</LinearLayout>

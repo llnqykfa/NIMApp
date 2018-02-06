@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <ScrollView
+        android:id="@+id/make_ring_second_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:background="#6F706A" >
+
+                <ImageView
+                    android:id="@+id/make_ring_second_img_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:contentDescription="@string/imgview_content_description"
+                    android:src="@drawable/ic_tack_photo" >
+                </ImageView>
+
+                <ImageView
+                    android:id="@+id/make_ring_second_img_content"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:contentDescription="@string/imgview_content_description"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_applogo"
+                    android:visibility="invisible" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/content_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/ring_introduce"
+                android:textSize="@dimen/text_18" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical" >
+
+                <EditText
+                    android:id="@+id/make_ring_second_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:gravity="top"
+                    android:hint="@string/input_ring_content_hint"
+                    android:lineSpacingExtra="3dp"
+                    android:maxEms="15"
+                    android:minLines="5"
+                    android:maxLines="5"
+                    android:paddingBottom="25dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/make_ring_second_character_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="-20dp"
+                    android:text="1/180"
+                    android:textColor="@color/bg_topbar" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:visibility="invisible" />
+            <TextView
+                android:id="@+id/content_class"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="分类"
+                android:textSize="@dimen/text_18" />
+            <LinearLayout
+                android:id="@+id/line_class"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                >
+                <TextView
+                    android:id="@+id/tv_class1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="默认"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="#eb4f38"
+                    />
+                <TextView
+                    android:id="@+id/tv_class2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="创业"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/tv_class3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="生活"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+                <TextView
+                    android:id="@+id/tv_class4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="读书"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    />
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/rel_lable"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                >
+                <TextView
+                    android:id="@+id/content_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_centerVertical="true"
+                    android:text="标签"
+                    android:textSize="@dimen/text_18" />
+                <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:layout_toRightOf="@+id/content_label"
+                android:layout_centerVertical="true"
+                android:text="（每个单独标签不能超过5个字，最多5个标签(可选)）"
+                android:textSize="9.5sp"
+                />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="增加"
+                    android:id="@+id/tv_addleble"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"/>
+
+            </RelativeLayout>
+            <!--<EditText-->
+                <!--android:id="@+id/edit_tag"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:background="@color/white"-->
+                <!--android:layout_below="@+id/content_label"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:ems="10"-->
+                <!--android:textSize="16sp"-->
+                <!--/>-->
+
+            <TextView
+                android:id="@+id/edit_tag"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="15dp"
+                android:layout_below="@+id/rel_lable"
+                android:layout_marginTop="10dp"
+                android:gravity="left|center_horizontal"
+                android:textSize="16sp"
+                android:textColor="@color/bg_topbar"
+                android:visibility="gone"
+                />
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/img_voice"
+        android:textColor="#575757"
+        android:text="按住说话"
+        android:visibility="gone"
+        android:textSize="15sp"
+        android:background="@drawable/sl_vocie_bg"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

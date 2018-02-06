@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="3dp" >
+
+    <TextView
+        android:id="@+id/row_picture_timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" >
+
+        <!-- 头像 -->
+
+        <com.nzy.nim.view.RoundImageView
+            android:id="@+id/row_picture_iv_userhead"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:clickable="true"
+            android:src="@drawable/pic_default_head" />
+
+        <TextView
+            android:id="@+id/row_picture_iv_username"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/row_picture_iv_userhead"
+            android:maxEms="9"
+            android:text="11111"
+            android:singleLine="true"
+            android:visibility="gone" />
+
+        <!-- 接收的图片 -->
+
+        <RelativeLayout
+            android:id="@+id/row_picture_row_recv_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/row_picture_iv_username"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/row_picture_iv_userhead" >
+
+            <com.nzy.nim.view.MaskImage
+                android:id="@+id/row_picture_iv_sendPicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/default_img_1" />
+
+            <LinearLayout
+                android:id="@+id/row_picture_ll_loading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:orientation="vertical" >
+
+                <ProgressBar
+                    android:id="@+id/row_picture_progressBar"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/row_picture_percentage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0%"
+                    android:textColor="@android:color/white"
+                    android:visibility="gone" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

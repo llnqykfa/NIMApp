@@ -1,0 +1,274 @@
+<resources>
+    <style name="MenuTextStyle">
+        <item name="android:popupBackground">#FFFFFF</item>
+    </style>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <item name="android:actionMenuTextAppearance">@style/MenuTextStyle</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+    </style>
+
+    <style name="Theme.Start" parent="android:Theme">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <style name="transcutestyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@android:color/transparent</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@android:color/transparent</item><!--背景透明-->
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <!-- 自定义Dialog风格 -->
+    <style name="dialog" parent="@android:style/Theme.Dialog">
+
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 模糊 -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <style name="FullScreenDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <declare-styleable name="FlowLayout">
+        <attr name="horizontalSpacing" format="dimension" />
+        <attr name="verticalSpacing" format="dimension" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="debugDraw" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="FlowLayout_LayoutParams">
+        <attr name="layout_newLine" format="boolean" />
+        <attr name="layout_horizontalSpacing" format="dimension" />
+        <attr name="layout_verticalSpacing" format="dimension" />
+    </declare-styleable>
+
+    <!-- 透明Activity的样式   -->
+    <style name="MyDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <style name="tab2_rb_style">
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/dynamic_tab_color</item>
+        <item name="android:gravity">center_horizontal|bottom</item>
+        <item name="android:background">@drawable/btn_selector</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <!-- 聊天页面 -->
+
+    <style name="Animations" />
+
+    <!-- PopDownMenu -->
+    <style name="Animations.PopDownMenu">
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <style name="Animations.PopDownMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_bottom</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <!-- PopUpMenu -->
+    <style name="Animations.PopUpMenu">
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Left">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Right">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <style name="Animations.PopUpMenu.Center">
+        <item name="@android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="@android:windowExitAnimation">@anim/shrink_from_top</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <!-- 聊天界面的风格 -->
+    <style name="chat_text_date_style">
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:background">#bfbfbf</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+    </style>
+    <style name="chat_content_date_style">
+        <item name="android:gravity">left|center</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:lineSpacingExtra">2dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <style name="chat_text_name_style">
+        <item name="android:textColor">#818181</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <style
+        name="CustomDialogs"
+        parent="@android:style/Theme.Dialog">
+        <!--windowFrame框为无 -->
+        <item
+            name="android:windowFrame">@null</item>
+        <item
+            name="android:windowNoTitle">true</item>
+        <!-- 除去背景 -->
+        <item
+            name="android:windowBackground">@android:color/transparent</item>
+        <!--是否浮现在activity之上 -->
+        <item
+            name="android:windowIsFloating">true</item>
+        <!-- 是否半透明 -->
+        <item
+            name="android:windowIsTranslucent">true</item>
+        <!-- 去掉覆盖层 -->
+        <item
+            name="android:windowContentOverlay">@null</item>
+        <!-- 设置背景颜色 -->
+        <item
+            name="android:background">#00000000</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground"> @android:color/transparent </item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+    <style name="dialogProgress" parent="@android:style/Theme.Dialog">
+        <item name="android:gravity">bottom</item>
+        <item name="android:windowFrame">@drawable/transparent</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@drawable/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <!-- 模糊 -->
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+
+    <!-- Navigation Header -->
+    <style name="NavPage">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center_horizontal</item>
+        <!-- <item name="android:background">@drawable/nav_page</item> -->
+        <item name="android:background">@color/navpage</item>
+        <item name="android:popupMenuStyle">@style/MenuTextStyle</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:solidColor">#DCDCDC</item>
+    </style>
+</resources>

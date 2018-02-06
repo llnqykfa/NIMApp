@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 底部菜单栏的图标属性（当前没有使用） -->
+    <attr name="micon" format="reference" />
+    <attr name="mcolor" format="color" />
+    <attr name="mtext" format="string" />
+    <attr name="mtext_size" format="dimension" />
+
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="micon" />
+        <attr name="mcolor" />
+        <attr name="mtext" />
+        <attr name="mtext_size" />
+    </declare-styleable>
+    <!-- 显示图片圆形或圆角的自定义属性 -->
+    <attr name="borderRadius" format="dimension" />
+    <attr name="type">
+        <enum name="circle" value="0" />
+        <enum name="round" value="1" />
+    </attr>
+
+    <declare-styleable name="RoundImageView">
+        <attr name="borderRadius" />
+        <attr name="type" />
+    </declare-styleable>
+
+    <!-- 五角星的自定义属性 -->
+    <declare-styleable name="Stars">
+        <attr name="starColor" format="color" />
+        <attr name="starRadius" format="float" />
+        <attr name="starIsFull" format="boolean" />
+    </declare-styleable>
+
+    <!-- 滑动删除图标属性 -->
+    <declare-styleable name="SlideView">
+        <attr name="maskText" format="string" />
+        <attr name="maskTextSize" format="dimension" />
+        <attr name="maskTextMarginLeft" format="dimension" />
+        <attr name="maskTextMarginTop" format="dimension" />
+        <attr name="slider" format="reference" />
+        <attr name="sliderMarginLeft" format="dimension" />
+        <attr name="sliderMarginTop" format="dimension" />
+        <attr name="slidableLength" format="dimension" />
+        <attr name="effectiveLength" format="dimension" />
+        <attr name="effectiveVelocity" format="dimension" />
+    </declare-styleable>
+    <!-- 可收缩文本属性 -->
+    <declare-styleable name="ExpandableTextView">
+        <attr name="trimLength" format="integer" />
+    </declare-styleable>
+    <!-- 侧滑菜单的自定义属性 -->
+    <attr name="rightPadding" format="dimension" />
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPadding" />
+    </declare-styleable>
+    <!-- 画三角指示器 -->
+    <attr name="item_count" format="integer"></attr>
+
+    <declare-styleable name="ViewPagerIndicator">
+        <attr name="item_count" />
+    </declare-styleable>
+    <!-- 照片墙 -->
+    <declare-styleable name="Gallery">
+        <attr name="android:galleryItemBackground"></attr>
+    </declare-styleable>
+
+    <!-- 自定义的开关按钮 -->
+    <declare-styleable name="ToggleButton">
+        <attr name="borderWidth" format="dimension"></attr>
+        <attr name="offBorderColor" format="reference|color"></attr>
+        <attr name="offColor" format="reference|color"></attr>
+        <attr name="onColor" format="reference|color"></attr>
+        <attr name="spotColor" format="reference|color"></attr>
+        <attr name="animate" format="reference|boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="PullToRefresh">
+        <attr name="adapterViewBackground" format="reference|color" />
+        <attr name="headerBackground" format="reference|color" />
+        <attr name="headerTextColor" format="color" />
+        <attr name="mode">
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+            <flag name="both" value="0x3" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="ConvenientBanner">
+        <attr name="canLoop" format="boolean" />
+    </declare-styleable>
+</resources>

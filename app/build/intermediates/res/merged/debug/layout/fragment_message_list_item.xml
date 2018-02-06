@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 消息中心的item布局 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:quanyou="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <!-- 头像 -->
+
+        <com.nzy.nim.view.RoundImageView
+            android:id="@+id/fragment_messages_list_item_img"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pic_default_head"
+             />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" >
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="10dp"
+                >
+                <ImageView
+                    android:id="@+id/fragment_message_list_item_group_flag"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_ring_flag" />
+
+                <TextView
+                    android:id="@+id/fragment_messages_list_item_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:singleLine="true"
+                    android:textColor="#272727"
+                    android:text="你是"
+                    android:textSize="16sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+            <TextView
+                android:id="@+id/fragment_messages_list_item_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+                android:layout_marginTop="13dp"
+                android:singleLine="true"
+                android:text="你是"
+
+                android:textColor="#949493"
+                android:textSize="11sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+             >
+
+            <TextView
+                android:id="@+id/fragment_messages_list_item_sign"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="30dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1"
+                android:text="霓虹"
+                android:singleLine="true"
+                android:textColor="#949493"
+                android:textSize="12sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <TextView
+                android:id="@+id/fragment_message_list_item_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="4dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/tv_info_hint"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

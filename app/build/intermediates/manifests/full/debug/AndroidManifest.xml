@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nzy.nim"
+    android:versionCode="10"
+    android:versionName="1.0.10" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <!-- 必须的权限： -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 获取设备信息 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 网络通信 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 获取网络状态 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取MAC地址 -->
+    <!-- 可选的权限： -->
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <!-- 获取logcat日志 -->
+    <!-- 腾讯日志 bugly -->
+
+
+    <!-- 系统级别的对话框权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 开启二维码扫描所需权限 -->
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+    <uses-permission android:name="com.android.browser.permission.WRITE_HISTORY_BOOKMARKS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <application
+        android:name="com.nzy.nim.vo.QYApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_applogo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nzy.nim.activity.main.AppStartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Start" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nzy.nim.activity.login.LoginActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <activity
+            android:name="com.nzy.nim.activity.main.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.nzy.nim.activity.login.TransitionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.AddNewFriendsActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.PersonVerificationInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.FriendsInfoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Animations.PopDownMenu" />
+        <activity
+            android:name="com.nzy.nim.activity.base.ShowBigImageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.EditUserInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.MyPersonalInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.SettleAcctActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.base.ClipPicActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.SacnResultActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.QYWebviewAvtivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.PayWebviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.SystemMessageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.SystemNotificationActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.RingSettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.base.ImagePagerActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.MembersListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.DynamicCommentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.CommentInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.BookCommentInputActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ForwardMessageActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.base.AlertDialogActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="com.nzy.nim.activity.main.PublishedActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.PhotoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ImageGridActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ContextMenu"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ShowNormalFileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ChatActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.main.MakeRingFirstActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.main.MakeRingSecondActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.main.InterestationsCenterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.CommonInterestActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ExitActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyDialogStyle" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ShareAPPActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.RingTeamInfoActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan|stateHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.main.RingListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.SearchActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.ForgotPwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.RegisterActivity3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.zxing.MipcaActivityCapture"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.nzy.nim.activity.main.UpdatePwdActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.nzy.nim.activity.main.AboutAppActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- alipay sdk begin -->
+
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name="com.alipay.sdk.app.H5AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+
+        <!-- weixin sdk begin -->
+        <activity
+            android:name="com.nzy.nim.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoDisplay" />
+
+        <receiver android:name="com.nzy.nim.wxapi.WeixinRegister" >
+            <intent-filter>
+                <action android:name="com.tencent.mm.plugin.openapi.Intent.ACTION_REFRESH_WXAPP" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/top_bar" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+    <EditText
+        android:id="@+id/edt_editUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_centerInParent="true"
+        android:maxLength="30"
+        android:maxLines="3"
+        android:textColor="#1e1e1e"
+        android:layout_marginRight="@dimen/margin_10"
+        android:padding="@dimen/margin_5"
+        android:textSize="16sp"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button"
+        android:background="@drawable/edit_text_bg2"/>
+
+        <Button
+            android:layout_width="55dp"
+            android:layout_height="32dp"
+            android:text="保存"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:id="@+id/button"
+            android:onClick="saveMsg"
+            android:layout_marginBottom="2dp"
+            android:background="@drawable/sl_shape_btn"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_editUserInfo_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#555555"
+        android:textSize="13sp" />
+
+</LinearLayout>
